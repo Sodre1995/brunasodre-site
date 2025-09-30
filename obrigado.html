@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Enviada | Bruna Sodré Psicóloga</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #faf9f7;
+            color: #4a4a4a;
+        }
+        
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .bg-primary {
+            background-color: #f5ebe0;
+        }
+        
+        .text-primary {
+            color: #8b5a2b;
+        }
+        
+        .bg-secondary {
+            background-color: #8b5a2b;
+        }
+    </style>
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center bg-primary">
+        <div class="max-w-md w-full bg-white p-8 rounded-lg shadow-lg text-center">
+            <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <i data-feather="check" class="w-10 h-10 text-green-600"></i>
+            </div>
+            <h1 class="title-font text-3xl font-bold text-primary mb-4">Mensagem Enviada!</h1>
+            <p class="text-gray-600 mb-8">Obrigado pelo seu contato. Em breve retornarei sua mensagem para agendarmos sua consulta.</p>
+            <a href="/" class="bg-secondary hover:bg-opacity-90 text-white font-bold py-3 px-8 rounded-full inline-block">
+                Voltar ao Site
+            </a>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
